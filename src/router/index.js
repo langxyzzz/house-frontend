@@ -97,6 +97,11 @@ export const constantRoutes = [
       }
     ]
   },
+  {
+    path: '/house/houseManage/houseInfoDetail',
+    component: () => import('@/views/house/HouseInfoDetail'),
+    meta: { title: '房屋信息详情', affix: true }
+  },
   systemRouter,
   {
     path: '/documentation',
